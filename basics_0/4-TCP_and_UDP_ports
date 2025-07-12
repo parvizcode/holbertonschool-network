@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-netstat -tulnp 2>/dev/null
+netstat -tulnp 
