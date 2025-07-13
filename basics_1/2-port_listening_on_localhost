@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Listen on localhost port 98 and print incoming data
+
+# Using netcat (nc) to listen on localhost 127.0.0.2 port 98
+# -l listen mode, -k keep open for multiple connections, -p port number, -s bind to source IP
+nc -lkp 98 -s 127.0.0.2
